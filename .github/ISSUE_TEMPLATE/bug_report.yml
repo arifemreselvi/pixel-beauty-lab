@@ -1,0 +1,51 @@
+name: Bug report
+description: Report a reproducible problem
+title: "[Bug]: "
+labels: [bug]
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: What happened?
+      placeholder: Describe the issue clearly.
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Open app
+        2. Load image
+        3. Click Upscale x4
+        4. See error
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs (if any)
+      description: Paste relevant content from launcher/app log files.
+      placeholder: "%TEMP%\\fusion_upscaler_launcher.log and %TEMP%\\fusion_upscaler_app.log"
+
+  - type: input
+    id: os
+    attributes:
+      label: OS
+      placeholder: Windows 11
+
+  - type: input
+    id: python
+    attributes:
+      label: Python version
+      placeholder: 3.10.x
