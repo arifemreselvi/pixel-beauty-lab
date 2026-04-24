@@ -3,7 +3,7 @@
 Fusion Upscaler is a Windows desktop application for fast, local 4x image upscaling with automatic model routing, model fusion, and post-enhancement for clarity.
 It is designed for users who want a clean native UI (not a browser app), one-click EXE startup, and high-quality results across both photographic and anime/illustration images.
 
-## Creator
+## Developer
 
 - **Name:** Arif Emre Selvi
 - **Academic Status:** 2nd year MIS (Management Information Systems) student
